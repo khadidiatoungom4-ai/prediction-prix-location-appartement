@@ -1,0 +1,28 @@
+# Environnement Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environnements et secrets
+.env
+.env.*
+
+# Modèles volumineux
+*.pkl
+*.joblib
+
+# Données volumineuses
+data/raw/*
+!data/raw/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
