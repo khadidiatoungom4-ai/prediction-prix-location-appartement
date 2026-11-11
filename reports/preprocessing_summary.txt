@@ -1,0 +1,27 @@
+Rapport de prétraitement - Prédiction du prix de location
+
+Dataset 10K
+  source                  : données nettoyées existantes
+  lignes initiales        : 10000
+  doublons supprimés      : 0
+  lignes après nettoyage  : 9974
+  lignes supprimées       : 26
+  valeurs manquantes      : 0
+  variables explicatives  : 96
+  cible                   : price
+
+Dataset 100K
+  source                  : données nettoyées existantes
+  lignes initiales        : 99492
+  doublons supprimés      : 84
+  lignes après nettoyage  : 99278
+  lignes supprimées       : 214
+  valeurs manquantes      : 0
+  variables explicatives  : 97
+  cible                   : price
+
+Fichiers générés dans data/processed :
+  - X_10K.csv.gz
+  - X_10K_scaled.csv.gz
+  - X_100K.csv.gz
+  - X_100K_scaled.csv.gz
